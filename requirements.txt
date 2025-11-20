@@ -1,0 +1,14 @@
+flask
+openai
+gunicorn
+
+#Install this first
+#pip install flask openai python-dotenv
+#then freeze the dependencies: pip freeze > requirements.txt
+
+
+#ways to set up an environment
+# python3 -m venv .venv
+# python3 --version
+# source .venv/bin/activate
+# ls -a

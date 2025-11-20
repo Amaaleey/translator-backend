@@ -1,0 +1,6 @@
+.env
+.venv/
+__pycache__/
+
+
+#This prevents your API key from ever getting uploaded to GitHub.
