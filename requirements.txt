@@ -1,14 +1,8 @@
-flask
-openai
-gunicorn
+streamlit==1.32.0
+openai==1.6.1
+python-dotenv==1.0.1
+flask==2.3.2
+gunicorn==21.2.0   # optional, needed only for deploying Flask on Render
 
-#Install this first
-#pip install flask openai python-dotenv
-#then freeze the dependencies: pip freeze > requirements.txt
-
-
-#ways to set up an environment
-# python3 -m venv .venv
-# python3 --version
-# source .venv/bin/activate
-# ls -a
+#pip install -r requirements.txt
+#pip freeze > requirements.txt
